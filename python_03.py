@@ -2,8 +2,8 @@ nombre = input("¿Cuál es su nombre?\n")
 edad = int(input('¿Cuántos años tiene?\n'))
 ciudad = input('¿En qué ciudad vive?\n')
 estado_civil = input('¿Está casado?\n')
-numero_a = int(input('Ingrese un número entre 1-100\n'))
-numero_b = int(input('Ingrese un número entre 100-200\n'))
+numero_a = int(input('Ingrese un número entre 1-100: '))
+numero_b = int(input('Ingrese un número entre 100-200: '))
 division = numero_a/numero_b
 print(f'Mi nombre es {nombre}, mi edad es {edad}, soy de la ciudad de {ciudad} y mi resultado es {division}')
 #Crear una copia de un repositorio en tu computadora: git clone <URL>
